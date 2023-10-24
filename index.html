@@ -8,8 +8,9 @@
 
     <meta name="description" content="Template HTML file">
     <meta name="author" content="iO Academy">
-
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    
     <link rel="stylesheet" href="css/styles.css">
 
     <link rel="icon" href="images/favicon.png" sizes="192x192">
@@ -17,11 +18,125 @@
     <link rel="apple-touch-icon" href="images/favicon.png">
 
     <script defer src="js/index.js"></script>
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="images/font-awesome-4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
 
-<h1>Website Template</h1>
+  <div class="target"></div> 
+  <div class="navigation">
+    <button>Menu</button>
+    <div class="links">
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#portfolio">Portfolio</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </div>
 
+    <div class="cv">
+      <a href="#">Download CV</a>
+    </div>
+
+    <img class="main-image" src="images/pexels-alejandro-ar-17142502.jpg" alt="" />
+    <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, necessitatibus voluptatibus molestias, explicabo, placeat assumenda maiores quis voluptate perferendis enim quam fuga excepturi dolore saepe praesentium inventore! Voluptatum, aliquid ut.</p>
+    
+
+    <div class="arrow">
+      <a href="#about">
+        <!-- <i class="fas fa-chevron-down" src='https://kit.fontawesome.com/a076d05399.js'></i> -->
+        <!-- <i class='fas fa-chevron-down' style='font-size:48px;color:red'></i> -->
+        <i class="fa fa-chevron-down"></i>
+      </a>
+    </div>
+   
+
+
+  </div>
+
+  <div id="about" class="about">
+    <h2 class="header-two">About</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vitae accusamus animi quidem repudiandae quaerat quae necessitatibus? Consequuntur possimus voluptates atque, ut, nostrum ducimus autem animi earum placeat quidem doloribus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ullam exercitationem tempore. Maiores quaerat, quae maxime animi autem quia unde reprehenderit. Porro eligendi necessitatibus et deserunt quos iste! Unde, cumque!</p>
+  </div>
+
+
+  <div id="portfolio" class="portfolio">
+    <h3 class="header-three">Portfolio</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae quisquam quidem facere quo aliquam labore voluptas, impedit, harum odit quis quia. Exercitationem nulla sequi distinctio et vel eaque officia ratione.</p>
+    
+    <div class="project">
+      <h4>Project Title</h4>
+      <div class="content">
+          <img id="image1" src="" alt width="350" height="200">
+          
+          <div class="desc">
+              <p id="desc1">Project description goes here with detail about the project and tech i used etc.</p>
+              <div class="project-links">
+                  <a href="#" target="_blank">Github <i class="fab fa-github-square"></i></a>
+                  <a href="#" target="_blank">Live <i class="fas fa-external-link-square-alt"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="project">
+      <h5>Project title</h5>
+      <div class="content">
+          <img src="https://via.placeholder.com/350x200" alt>
+
+          <div class="desc">
+              <p>Project description goes here with detail about the project and tech i used etc.</p>
+              <div class="project-links">
+                  <a href="#" target="_blank">Github <i class="fab fa-github-square"></i></a>
+                  <a href="#" target="_blank">Live <i class="fas fa-external-link-square-alt"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="project">
+      <h6>Project title</h6>
+      <div class="content">
+          <img src="https://via.placeholder.com/350x200" alt>
+
+          <div class="desc">
+              <p>Project description goes here with detail about the project and tech i used etc.</p>
+              <div class="project-links">
+                  <a href="#" target="_blank">Github <i class="fab fa-github-square"></i></a>
+                  <a href="#" target="_blank">Live <i class="fas fa-external-link-square-alt"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  </div>
+  <div id=contact class="contact-me">
+    <h4>Contact</h4>
+    <p>The best way to get in touch with me is via email, but if you prefer social media I have included those too.</p>
+    <nav>
+      <a href="Contact.html">Contact</a>
+    </nav>
+    <a href="#">
+      <i class="fas fa-envelope-square"></i>
+    </a>
+    <a href="#">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="#">
+      <i class="fab fa-twitter-square"></i>
+    </a>
+    <a href="#">
+      <i class="fab fa-github-square"></i>
+    </a>
+
+  </div>
+
+  
+  
+  <div class="footer">
+    <p>Copyright blah blah</p>
+  </div>
 </body>
 </html>

@@ -1,0 +1,26 @@
+{
+    "projects": [
+      {
+        "name": "Project 1",
+        "img": "images/pexels-jack-granger-17454325.jpg",
+        "RDT": 5,
+        "desc": "My first project of this course. Full description of finished project to be added.",
+        "wikipedia":"https://en.wikipedia.org/wiki/Digestive_biscuit"
+      },
+      {
+        "name": "Project 2",
+        "img": "https://s3-us-west-1.amazonaws.com/contentlab.studiod/getty/d05662cfb32042c9894dddf8ed73ce22.jpg",
+        "RDT": 5,
+        "desc": "A digestive biscuit.",
+        "wikipedia":"https://en.wikipedia.org/wiki/Digestive_biscuit"
+      },
+      {
+        "name": "Project 3",
+        "img": "https://s3-us-west-1.amazonaws.com/contentlab.studiod/getty/d05662cfb32042c9894dddf8ed73ce22.jpg",
+        "RDT": 5,
+        "desc": "A digestive biscuit.",
+        "wikipedia":"https://en.wikipedia.org/wiki/Digestive_biscuit"
+      }      
+
+    ]
+  }
